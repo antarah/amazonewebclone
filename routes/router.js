@@ -5,9 +5,9 @@ const USER = require("../models/userSchema");
 const bcrypt = require("bcryptjs");
 const authenicate = require("../middleware/authenticate");
 
-// router.get("/",(req,res)=>{
-//     res.send("this is testing routes");
-// });
+ router.get("/",(req,res)=>{
+    res.send("this is testing routes");
+ });
 
 
 // get the products data
